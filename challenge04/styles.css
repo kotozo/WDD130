@@ -6,7 +6,7 @@ body {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: xx-small;
+    font-size: x-small;
 
 }
 h1 {
@@ -29,7 +29,10 @@ ol {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:bolder;
     font-size: smaller;
-    margin-left:30em;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+
 }
 
 footer{
@@ -52,4 +55,7 @@ blockquote{
     margin:auto;
     text-align: center;
 
+}
+#ChurchName{
+    font-size: xx-small;
 }
