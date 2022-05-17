@@ -1,3 +1,33 @@
+/* 
+body{
+    margin:0;   
+}
+#header-img{
+    width:100%;
+    margin-bottom: -5px;
+
+}
+
+div {
+    display: block;
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+}
+div img{
+    width: 350px;
+    margin:85px;
+    border-color: rgb(71, 71, 71);
+    border: 25px solid rgb(52, 52, 52);
+    border-radius: 50%;
+    
+}
+footer p{
+    text-align:center;
+    font-size: 32px;
+    
+}
+*/
+
 body{
     margin: 0;
 }
@@ -21,4 +51,8 @@ nav img{
     border-color: rgb(71, 71, 71);
     border: 25px solid rgb(52, 52, 52);
     border-radius: 50%;
+} 
+footer p{
+    text-align:center;
+    font-size: 32px;
 }
