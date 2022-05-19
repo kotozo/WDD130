@@ -33,14 +33,16 @@ Fonts are separated by a | */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
+  font-family: Open Sans, Helvetica, sans-serif ;
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -48,6 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  font-family: Radio Canada;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -108,10 +112,13 @@ nav  {
   display: flex;
 }
 nav a {
-  padding:1em;
-  min-width: 120px;
+  /*padding:1em;
+  min-width: 120px;*/
   text-decoration: none;
-  padding: 10px;
+  color:#fcfbfb;
+  text-align: center;
+  padding: 35px;
+  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -162,4 +169,49 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title{
+  font-family: Radio Canada;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.msg{
+  background-color: #6f7364;
+  font-family: Radio Canada;
+  line-height: 1.5em;
+  padding: 35px;
+}
+.book, .join{
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+
+}
+msg p {
+  font-size: 8em;
+  padding: 15px;
+}
+.icon{
+  padding-top:10px:
+}
+footer{
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img{
+  padding-top: 15px;
+}
+.rivers-card, .camping-card; .rapids-card{
+  margin:200px 0;
+}
+.card-img{
+  border: 10px solid #000000;
+
+}
+main section img{
+  box-sizing: border-box;
 }
