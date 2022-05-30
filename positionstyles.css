@@ -151,26 +151,26 @@
 }
 .red5 { 
   width: 100%; 
-  height: 200px; 
+  height: 100px; 
   background-color: red; 
 
 } 
 .green5 { 
-  width: 400px; 
-  height: 400px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
   float: left
 
 } 
 .yellow5 {
   width: auto;
-  height: 500px;
+  height: 300px;
   background-color: gold;
-  font-size: 34px;
+  font-size: 28px;
 } 
 .blue5 {
   width: 100%; 
-  height: 200px; 
+  height: 100px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
