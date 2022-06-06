@@ -107,9 +107,8 @@ main section img {
 }
 
 footer a{
-   /* background-color:#9cb380;
-    color:#fe0101;*/
-    color: black;
+    color: white;
+    font-size: 18px;
     text-decoration: none;
 }
      
