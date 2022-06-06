@@ -5,18 +5,17 @@
 }
 nav a {
     text-align: center;
-   /* background-color: #b2abf2;*/
-    background-color:#345995
-    color: black;
+    background-color:#345995;
+    color: white;
     text-decoration: none;
     padding: 35px;
     display: flex;
     justify-content: space-around;
 }
+
 nav a:hover{
     background-color: #345995;
-    color: white;
-    
+    color: yellow; 
 }
 
 #hero-msg h1 {
