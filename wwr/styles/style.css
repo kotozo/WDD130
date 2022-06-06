@@ -81,6 +81,7 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
+    
 }
 
 #logo_link{
@@ -147,18 +148,6 @@ footer a:hover{
     width: 100%;
  
 }
-
-
-
-footer h3{ 
-    background-color:#6f7364;
-    padding: 25px 50px;
-    margin-top: 200px;
-    text-decoration: underline;
-    display: flex;
-    /*justify-content: space-around;*/
-    align-items: center;
-}
 .logo{
     width:80px;
 }
@@ -222,13 +211,12 @@ footer h3{
 /* ------------------------04) The main grid part end----------------------*/
 
 /*-----------------------05) Footer------------------------------------*/
-
 footer {
     background-color: #6f7364;
-    padding: 25px 50px;
-    margin-top: 200px; 
+    padding: 15px 25px;
+    margin-top: 10px; 
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     align-items: center;
 }
 
