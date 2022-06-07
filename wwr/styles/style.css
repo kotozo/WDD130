@@ -214,8 +214,8 @@ footer a:hover{
 /*-----------------------05) Footer------------------------------------*/
 footer {
     background-color: #6f7364;
-    padding: 15px 25px;
-    margin-top: 10px; 
+    padding: 25px 50px;
+    margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -256,11 +256,12 @@ footer {
         display: none;
     }
     .home-title {
+        margin-top: 10px;
         font-size: 25px;
         color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
+        margin: 200px 0;
         width: 60%;
     }
     #background {
