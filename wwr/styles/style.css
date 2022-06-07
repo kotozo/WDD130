@@ -58,7 +58,6 @@ main section{
 }
 
 body{
-    
     background-color: #fcfbfb;
     font-family: raleway, Arial, sans-serif;
     font-size:22px;
@@ -177,12 +176,6 @@ footer a:hover{
     grid-row: 2/3;
 }
 
-#background{
-    height:725px;
-    background-color: #082d0f;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
 .mountains{
     width: 100%;
     border: 10px solid #d9c2a3;
@@ -204,6 +197,15 @@ footer a:hover{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+#background {
+    height:725px;
+    width: 100%;    
+    grid-column: 1/11;
+    grid-row: 4/9;
+    background-color: #082d0f;
+    
+    
 }
 
 /* ------------------------04) The main grid part end----------------------*/
