@@ -154,18 +154,21 @@ footer a:hover{
 
 .rapids-card{
     margin: 20px 0;
+    width: 60%;
     grid-column: 8/10;
     grid-row: 2/3;
     
 }
 .rivers-card {
     margin: 20px 0;
+    width: 60%;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
 .camping-card{
     margin: 20px 0;
+    width: 60%;
     grid-column: 5/7;
     grid-row: 2/3;
 }
@@ -173,7 +176,6 @@ footer a:hover{
 .mountains{
     width: 100%;
     border: 10px solid #d9c2a3;
-    width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
@@ -260,10 +262,11 @@ footer {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 200px 0;
+   /* .rivers-card, .camping-card, .rapids-card { 
+        margin: 20px 0;
         width: 60%;
-    }
+    }*/
+
     #background {
         display: none;
     }
