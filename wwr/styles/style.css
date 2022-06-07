@@ -124,12 +124,6 @@ h4{
 .book:hover, .join:hover{
     color:aqua;
 }
-.msg{
-    color:#345995;
-    font-family: radio canada;
-    background-color: #9cb380;
-    line-height: 1.5em;
-}
 .msg p{
     color:azure;
     font-size: .8em;
@@ -193,10 +187,17 @@ footer a:hover{
 }
 .msg{
     background-color: #6f7364;
+    color: #082d0f;
     padding:35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.msg{
+    
+    font-family: radio canada;
+    background-color: #9cb380;
+    line-height: 1.5em;
 }
 #background {
     height:725px;
