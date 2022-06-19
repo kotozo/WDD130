@@ -2,14 +2,13 @@
 body{
     width: 300px;
     margin: auto;
-    margin-bottom: 5px;
+    background-color: black;
 }
 
 img{
     margin-top: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #small-title{
@@ -22,6 +21,10 @@ img{
     font-weight:bolder;
     color: #8F848F;
     font-size: large;
+    
+  }
+  #text-div{
+    background-color: white;
   }
 
 #title{
