@@ -131,27 +131,9 @@ h4{
 .book:hover, .join:hover{
     color:aqua;
 }
-/*
-.msg p{
-    color:azure;
-    font-size: .8em;
-}
-*/
-/*
-.msg02 p{
-    color:azure;
-    font-size: .8em;
-}
-
-.msg03 p{
-    color:azure;
-    font-size: .8em;
-}
-*/
-
 
 .msg{
-    /*background-color: #6f7364;*/
+
     color: #082d0f;
     padding:35px;
     grid-column: 6/10;
@@ -165,7 +147,7 @@ h4{
 }
 
 .msg02{
-    /*background-color: #6f7364;*/
+   
     color: #082d0f;
     padding:35px;
     grid-column: 6/10;
@@ -179,7 +161,7 @@ h4{
 }
 
 .msg03{
-    /*background-color: #6f7364;*/
+  
     color: #082d0f;
     padding:35px;
     grid-column: 6/10;
