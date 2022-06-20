@@ -56,7 +56,6 @@ nav a:hover{
 main section{
     text-align: center;
 }
-
 body{
     background-color: #fcfbfb;
     font-family: raleway, Arial, sans-serif;
@@ -64,9 +63,17 @@ body{
     margin: 0;
     padding: 0;
 }
+
 h2 {
     margin: 0;
     font-family: radio canada;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: radio canada;
+    text-align: center;
 }
 
 /*------------01) The header part of the Home page ---------------*/
@@ -313,6 +320,7 @@ footer {
         display: block;
         padding: 15px;
     }
+   
     #hero {
         margin-top: 0;
     }
