@@ -131,11 +131,68 @@ h4{
 .book:hover, .join:hover{
     color:aqua;
 }
+/*
 .msg p{
     color:azure;
     font-size: .8em;
-    
 }
+*/
+/*
+.msg02 p{
+    color:azure;
+    font-size: .8em;
+}
+
+.msg03 p{
+    color:azure;
+    font-size: .8em;
+}
+*/
+
+
+.msg{
+    /*background-color: #6f7364;*/
+    color: #082d0f;
+    padding:35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-family: radio canada;
+    background-color: #9cb380;
+    line-height: 2.0em;
+    font-size: .8em;
+    color:azure;
+}
+
+.msg02{
+    /*background-color: #6f7364;*/
+    color: #082d0f;
+    padding:35px;
+    grid-column: 6/10;
+    grid-row: 13/18;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-family: radio canada;
+    background-color: #9cb380;
+    line-height: 2.5em;
+    font-size: .8em;
+    color:azure;
+}
+
+.msg03{
+    /*background-color: #6f7364;*/
+    color: #082d0f;
+    padding:35px;
+    grid-column: 6/10;
+    grid-row: 22/27;
+    box-shadow: 5px 5px 10px #6f7364;
+    font-family: radio canada;
+    background-color: #9cb380;
+    line-height: 2.5em;
+    font-size: .8em;
+    color:azure;
+}
+
+
 footer a:hover{
     color:#b2abf2;
 }
@@ -211,41 +268,7 @@ footer a:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.msg{
-    /*background-color: #6f7364;*/
-    color: #082d0f;
-    padding:35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-    font-family: radio canada;
-    background-color: #9cb380;
-    line-height: 1.5em;
-}
 
-.msg02{
-    /*background-color: #6f7364;*/
-    color: #082d0f;
-    padding:35px;
-    grid-column: 6/10;
-    grid-row: 13/18;
-    box-shadow: 5px 5px 10px #6f7364;
-    font-family: radio canada;
-    background-color: #9cb380;
-    line-height: 1.5em;
-}
-
-.msg03{
-    /*background-color: #6f7364;*/
-    color: #082d0f;
-    padding:35px;
-    grid-column: 6/10;
-    grid-row: 22/27;
-    box-shadow: 5px 5px 10px #6f7364;
-    font-family: radio canada;
-    background-color: #9cb380;
-    line-height: 1.5em;
-}
 #background {
     height:725px;
     width: 100%;   
