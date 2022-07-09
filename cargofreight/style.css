@@ -67,12 +67,6 @@ nav a:hover{
   text-decoration: none;
   color: white;
 }
-
-
-nav a:hover{
-  color:#F55D3E; 
-}
-
 /*-----------------Component---------------*/
 body {
   margin: 0;
