@@ -28,11 +28,11 @@ body, html {
   font-size: 18px;
 }
 
-nav1 a{
+nav a{
   text-decoration: none;
   color: white;
 }
-nav1 a:hover{
+nav a:hover{
   text-decoration: none;
   color: #230444;
 }
