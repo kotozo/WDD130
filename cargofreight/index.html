@@ -11,25 +11,24 @@
 <body>    
         
             <div class="top-nav">
-                <nav1>
-                    <a href="#">Call 1(909)2976</a> |
-                    <a href="#">Login to myCargo freight</a> |
+                <nav>
+                    <a href="call.html">Call 00228-909-2976</a> |
+                    <a href="login.html">Login to myCargo freight</a> |
                     <input type="text" placeholder="Search..">
-                </nav1>
+                </nav>
             </div>
-
             
         <header>
             <div class="grid-header">
                 <div class="grid-logo">
-                <a href="index.html"><img src="logo.png" alt="Cargo Freight Logo" id="logo-style" width="150" hight="150"></a>
+                <a href="index.html"><img src="logo.png" alt="Cargo Freight Logo" id="logo-style" width="150" height="150"></a>
                 </div>  
                 <div class="grid-nav">
-                        <a class="active" href="#">Shippers</a>
-                        <a href="#carriers">Carriers</a>
-                        <a href="#services">Services</a>
-                        <a href="#ressources">Ressources</a>
-                        <a href="#contact">Contact</a>                    
+                        <a class="active" href="shippers.html">Shippers</a>
+                        <a href="carriers.html">Carriers</a>
+                        <a href="services.html">Services</a>
+                        <a href="ressources.html">Ressources</a>
+                        <a href="contact.html">Contact</a>                    
                 </div>
 
             </div>
@@ -41,47 +40,47 @@
                 <div class="hero-text">
                   <h1 style="font-size:50px">We deliver your hope @ destintation </h1>
                   <p>Cargo Freight and Logistics combines Industry insight, innovative <br> technology and commited specialists to optimize your <br> supply chain and streamline costs</p>
-                  <a href="getquote.html"><button>Get Quote</button></a> 
-                  <a href="dial.html"><button>Call (00228) 9009 2976</button></a>
+                  <button type="button" id="myBtn" onclick="myFunction()">Get Quote</button> 
+                  <button type="button" id="myBtn2" onclick="myFunction()">Call 00228-9009-2976</button>
                 </div>
            
         </main> 
         
         <div class="detail">
 
-                <h1 class="center"><a href="ourservices.html">Our services</a></h1>
+                <h1 class="center"><a href="services.html">Our services</a></h1>
                             
                 
                 <div class="main-services">
                     
                     <div class="center">
-                        <a href="seafreight.html"><img src="cruise.png" alt="main picture" width="150px" hight="100px"></a>
+                        <a href="seafreight.html"><img src="cruise.png" alt="main picture" width="150" height="100"></a>
                         <p>With our Sea Freight services, you can move more loads in one shipment </p>
                     </div>
                     <div class="center">
-                        <a href="airfreight.html"><img src="air-plane.png" alt="main picture" width="150px" hight="100px"></a>
+                        <a href="airfreight.html"><img src="air-plane.png" alt="main picture" width="150" height="100"></a>
                         <p>For your urgent delivery, plan to use our air freight service at a very affordable rates</p>
                     </div>
                     <div class="center">
-                        <a href="roadtransport.html"><img src="shipped.png" alt="main picture" width="150px" hight="100px"></a>
+                        <a href="roadtransport.html"><img src="shipped.png" alt="main picture" width="150" height="100"></a>
                         <p>For your DDP & DDU contrats, we are ready to make it to your door</p>
                     </div>
                 </div>
                 
-                <h1 class="center"><a href="oursolutions.html">Our Solutions</a></h1>
+                <h1 class="center"><a href="solutions.html">Our Solutions</a></h1>
 
             <div class="main-services">
                     
                 <div class="center">
-                    <a href="solutions.html"><img src="tracking.png" alt="main picture" width="150px" hight="100px"></a>
+                    <a href="solutions.html"><img src="tracking.png" alt="main picture" width="150" height="100"></a>
                     <p>With our Sea Freight services, you can move more loads in one shipment </p>
                 </div>
                 <div class="center">
-                    <a href="solutions.html"><img src="quote.png" alt="main picture" width="150px" hight="100px"></a>
+                    <a href="solutions.html"><img src="quote.png" alt="main picture" width="150" height="100"></a>
                     <p>For your urgent delivery, plan to use our air freight service at a very affordable rates</p>
                 </div>
                 <div class="center">
-                    <a href="solutions.html"><img src="locate.png" alt="main picture" width="150px" hight="100px"></a>
+                    <a href="solutions.html"><img src="locate.png" alt="main picture" width="150" height="100"></a>
                     <p>For your DDP & DDU contrats, we are ready to make it to your door</p>
                 </div>
             </div>
@@ -105,6 +104,17 @@
             </div>
 
         </footer>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myBtn");
+              x.disabled = quote.html;
+            }
+            function myFunction() {
+              var x = document.getElementById("myBtn2");
+              x.disabled = quote.html;
+            }
+        </script>
     
 </body>
 </html>
