@@ -115,10 +115,10 @@ nav a:hover{
   display: flex;
   flex-wrap: nowrap;
   margin: auto;
-  width: 35%;
+  width: 50%;
   padding: 35px;
   border-spacing: 25px;
-  margin-left: 400px;
+  
   
 }
 
@@ -157,4 +157,18 @@ footer {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .main-services {
+  display: block;
+  }
+  .grid-nav{
+    display: block;
+  }
+  footer{
+    display: block;
+  }
+  .grid-logo{
+    display: block;
+  }
 }
