@@ -171,8 +171,8 @@ main{
   margin: auto;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 5px;
-  border-spacing: 5px;
+  padding: 35px;
+  border-spacing: 35px;
   background-color: #F55D3E;
 /*background-color: #230444;*/
   margin-bottom: 20px;
@@ -180,13 +180,11 @@ main{
   
   
 }
-.center{
-  align-items: center;
+.center {
   text-align: center;
-  justify-content: center;
-  padding: 35px;
-  font-size: 25px;
+  font-size: 35px;
   color:#230444;
+  text-decoration: none;
 
 } 
 p{
