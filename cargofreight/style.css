@@ -17,6 +17,7 @@ body, html {
   border-style: solide 1px;
 }
 .top-nav {
+ /* background-color: #F55D3E;*/
   background-color: #F55D3E;
   display: block;
   text-align: right;
@@ -85,11 +86,20 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 5px;
+}
+ul p {
+  text-align: center;
+}
+
+.description {
+  border: 5px solid #F55D3E ;
 }
 
 .grid-nav a:hover {
-  background-color:#F55D3E;
-  color: black;
+  /*background-color:#F55D3E;*/
+  background-color: #F55D3E;
+  color: #230444;
 }
 
 .grid-nav a.active {
@@ -111,7 +121,8 @@ body {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: center
+  ;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -125,6 +136,7 @@ body {
   display: inline-block;
   padding: 20px;
   color: white;
+  /*background-color: #F55D3E;*/
   background-color: #F55D3E;
   text-align: center;
   cursor: pointer;
@@ -173,10 +185,13 @@ main{
   margin-right: 20px;
   padding: 35px;
   border-spacing: 35px;
-  background-color: #F55D3E;
+  /*background-color: #F55D3E;*/
+  background-color:  #F55D3E;
+  /*background-color:  #230444;*/
 /*background-color: #230444;*/
   margin-bottom: 20px;
   margin-top: 20px;
+  border-radius: 5px;
   
   
 }
@@ -207,6 +222,7 @@ footer a:hover{
   width: 80px;
 }
 footer {
+  /*background-color: #F55D3E;*/
   background-color: #F55D3E;
   padding: 25px 50px;
   margin-top: 2px; 
