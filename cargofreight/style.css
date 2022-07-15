@@ -44,7 +44,7 @@ nav a:hover{
 .grid-header{
   margin-top:0;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(8 1fr);
 
 }
 .grid-logo{
@@ -120,6 +120,16 @@ ul p {
  
 }
 
+.hero-image-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("warehouse_handling.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+
 .hero-text {
   text-align: center
   ;
@@ -146,6 +156,11 @@ ul p {
   margin-right: 10px;
   
 }
+/*
+#contact-img{
+  margin-bottom: -5px;
+}
+*/
 /*
 #hero-textb2{
   border: none;
@@ -205,10 +220,82 @@ main{
 p{
   font-size: 20px;
 } 
-/*.responsive {
+/*
+.responsive {
   width: 100%;
   height: 100%;
-}*/
+}
+*/
+
+/*-------------------------------Contact form Style-----------------------------------*/
+.contact-form{
+  width:600px;
+  height: 450px;
+  color: #082d0f;
+  padding:35px;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-family: radio canada;
+  border: 2px solid darkblue;
+  line-height: 1.9em;
+  font-size: .8em;
+  color:  white;
+  margin-top: -650px;
+  z-index: -1;
+  margin-left: 700px;
+}
+.left-img{
+  width: 755px;
+  margin-left:5%;
+  margin-right:5%;
+  box-shadow: 5px 5px 10px #6f7364;
+  margin-top: -750px;
+  margin-bottom: 150px;
+  /*z-index: -1;*/
+
+}
+#background {
+  height:725px;
+  width: 100%;   
+  /*grid-column: 1/11;
+  grid-row: 4/9;*/
+  background-color: #F55D3E;
+  z-index: -1;
+  
+ 
+}
+button[type=submit]:hover {
+  /*background-color: #230444;*/
+  color:  white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  
+}
+
+#button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  color: #230444 ;
+  background-color: #white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/*----------------------------- End Contact Form Style--------------------------------*/
   
 footer a{
   color: white;
@@ -229,6 +316,18 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 50px;
+}
+
+.footer-contact {
+  /*background-color: #F55D3E;*/
+  background-color: #F55D3E;
+  padding: 25px 50px;
+  margin-top: 2px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
 }
 
 .flex-container {
