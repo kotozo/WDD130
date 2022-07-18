@@ -17,7 +17,6 @@ body, html {
   border-style: solide 1px;
 }
 .top-nav {
- /* background-color: #F55D3E;*/
   background-color: #F55D3E;
   display: block;
   text-align: right;
@@ -28,6 +27,7 @@ body, html {
   text-decoration: none;
   font-size: 18px;
 }
+
 
 nav a{
   text-decoration: none;
@@ -97,7 +97,6 @@ ul p {
 }
 
 .grid-nav a:hover {
-  /*background-color:#F55D3E;*/
   background-color: #F55D3E;
   color: #230444;
 }
@@ -146,7 +145,6 @@ ul p {
   display: inline-block;
   padding: 20px;
   color: white;
-  /*background-color: #F55D3E;*/
   background-color: #F55D3E;
   text-align: center;
   cursor: pointer;
@@ -156,29 +154,6 @@ ul p {
   margin-right: 10px;
   
 }
-/*
-#contact-img{
-  margin-bottom: -5px;
-}
-*/
-/*
-#hero-textb2{
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 25px;
-  color: white;
-  background-color:#230444;
-  background-color: ;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  
-}
-*/
 
 .hero-text button:hover {
   background-color:#230444;
@@ -188,7 +163,9 @@ ul p {
 
 .detail{
   border: 2px solid  #230444;
+  margin-bottom: 200px;
 }
+
 main{
   margin-bottom: 5px;
 }
@@ -200,20 +177,18 @@ main{
   margin-right: 20px;
   padding: 35px;
   border-spacing: 35px;
-  /*background-color: #F55D3E;*/
   background-color:  #F55D3E;
-  /*background-color:  #230444;*/
-/*background-color: #230444;*/
   margin-bottom: 20px;
   margin-top: 20px;
   border-radius: 5px;
-  
-  
+    
 }
 .center {
   text-align: center;
   font-size: 35px;
   color:#230444;
+  text-decoration: none;
+  padding: 25px;
   text-decoration: none;
 
 } 
@@ -231,7 +206,6 @@ p{
 .contact-form{
   width:600px;
   height: 450px;
-  color: #082d0f;
   padding:35px;
   box-shadow: 5px 5px 10px #6f7364;
   font-family: radio canada;
@@ -239,26 +213,26 @@ p{
   line-height: 1.9em;
   font-size: .8em;
   color:  white;
-  margin-top: -650px;
-  z-index: -1;
-  margin-left: 700px;
+  margin-top: -1180px;  /* +550   */
+  margin-bottom: 400px;
+  margin-left: 800px;
+  
 }
 .left-img{
   width: 755px;
   margin-left:5%;
   margin-right:5%;
   box-shadow: 5px 5px 10px #6f7364;
-  margin-top: -750px;
-  margin-bottom: 150px;
-  /*z-index: -1;*/
-
+  margin-top: -800px;
+  margin-bottom: 705px; /* +500 */
 }
 #background {
   height:725px;
-  width: 100%;   
-  /*grid-column: 1/11;
-  grid-row: 4/9;*/
+  margin-left: 2%; 
+  margin-right: 2%;  
   background-color: #F55D3E;
+  margin-bottom: 250px;
+  border-radius: 5px;
   z-index: -1;
   
  
@@ -284,8 +258,8 @@ button[type=submit]:hover {
   outline: 0;
   display: inline-block;
   padding: 20px;
-  color: #230444 ;
-  background-color: #white;
+  background-color: #230444;
+  background-color: white;
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
@@ -294,9 +268,322 @@ button[type=submit]:hover {
   margin-right: 10px;
 }
 
+.msg{
+  color: #082d0f;
+  padding:35px;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-family: radio canada;
+  background-color: #9cb380;
+  line-height: 1.9em;
+  font-size: .8em;
+  color:azure;
+}
+/*----------------------part 2-------------------*/
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+ 
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  color:#230444;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+/*
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  
+ */    
+}
+.moveDown {
+  margin-top: 3em;
+}
+
+.form-submit button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  background-color: #230444;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+/***********************end part 2---------------*/
 
 /*----------------------------- End Contact Form Style--------------------------------*/
   
+/*---------------------------------my cargo freight login-----------------------------*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+*/
+
+.login-form{
+  width:600px;
+  height: 500px;
+  padding:35px;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-family: radio canada;
+  border: 2px solid #230444;
+  line-height: 1.9em;
+  font-size: .8em;
+  color:  white;
+  margin-top: -900px;  /* +550   */
+  margin-bottom: 400px;
+  margin-left: 28%;
+  
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+/*-------------------------------- End my cargo freight login--------------------------*/
+/*--------vertical line -----*/
+
+.vertical-line {
+  border-left: 2px solid #230444;
+  height: 200px;
+  margin-left: 5%;
+  padding:2px;
+  margin-bottom: 0px;
+}
+
+
+.white-text {
+  margin-top: 0px;
+  color:#230444;
+  font-size: 20px;
+  line-height: 38px;
+  padding-left: 10px;
+}
+
+
+.quote-left {
+  text-align: left;
+  font-size: 35px;
+  color:#230444;
+  width:50%;
+} 
+
+
+.quote-right {
+  text-align: center;
+  font-size: 35px;
+  color:#230444;
+} 
+.budget-left {
+  text-align: left;
+  font-size: 35px;
+  color:#230444;
+  width:50%;
+} 
+
+
+.budget-right {
+  text-align: center;
+  font-size: 35px;
+  color:#230444;
+  width: auto;
+  text-align: right;
+} 
+
+.number-circle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #230444;
+  border-radius: 25px;
+  color: #230444;
+
+}
+
+
+.quote-background{
+  display:flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 35px;
+  border-spacing: 35px;
+  background-color:  #F55D3E;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.budget-background{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 35px;
+  border-spacing: 35px;
+  background-color:  #F55D3E;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.quote-form{
+  width:600px;
+  height: 820px;
+  padding:25px;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-family: radio canada;
+  border: 2px solid #230444;
+  line-height: 1.9em;
+  font-size: .5em;
+  color:  white;
+}
+/*-----------end vertical line ----------*/
 footer a{
   color: white;
   font-size: 18px;
