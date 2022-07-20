@@ -62,8 +62,6 @@ nav1 a:hover{
   text-decoration: none;
   color: white;
 }
-
-
 nav a:hover{
   color:#F55D3E; 
 }
@@ -105,6 +103,28 @@ nav a:hover{
   background-color:#230444;
   color: white;
 }
+
+/*----------------------css text button-------------------*/
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+
+/*--------------------------end CSS button-----------------------*/
 /*--------------------------------------------end hero image--------------------------------*/
 
 .main-services{

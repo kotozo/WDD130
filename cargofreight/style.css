@@ -474,7 +474,7 @@ span.psw {
 /*--------vertical line -----*/
 
 .vertical-line {
-  border-left: 2px solid #230444;
+  border-left: 1px solid white;
   height: 200px;
   margin-left: 5%;
   padding:2px;
@@ -666,6 +666,10 @@ footer {
   justify-content: space-around;
   align-items: center;
   margin-top: 150px;
+}
+
+.footerh3-style{
+  color:#230444;
 }
 
 .flex-container {

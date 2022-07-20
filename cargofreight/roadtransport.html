@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Inland transport origin & destination</title>
     <link rel="icon" type="image/x-icon" href="cfl.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>    
         
             <div class="top-nav">
                 <nav>
-                    <a href="call.html">Call 00228-909-2976</a> |
+                    <a href="call.html">Call 00228-909-2976</a>|
                     <a href="mycargofreight.html">Login to myCargo freight</a>
-                    <!--<input type="text" placeholder="Search..">
+                   <!--<input type="text" placeholder="Search..">
                     <i style="font-size:18px; color: #230444;" class="fa">&#xf002;</i>-->
                 </nav>
             </div>
@@ -39,8 +40,8 @@
             </div>
         </header>
 
-        <main >
-            
+        <main>
+                        
             <video autoplay muted loop id="myVideo">
                 <source src="intro.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
@@ -55,43 +56,43 @@
               </div>
            
         </main> 
+        
+            <div class="detail">
 
-        <div class="detail">
+                                         
+                <div class="main-services">
+                    
+                    <div class="center">
+                        <img class="box" src="terminal-storage.jpg" alt="main picture" width="500" height="250">
+                        <p>Your cargo are transported from the port terminal to your warehouse by our professionals</p>
+                    </div>
 
-          <h1 class="center">Contact Us</h1>
-                      
-         <!-- <div class="main-services"> -->
-              
-              <div>
-                <div id="background"></div>
-                <img class="left-img" src="locate-solution-sm-size.jpg" alt="send inquiries" >
+                    <div class="center">
+                        <img class="box" src="truck-load.jpg" alt="main picture" width="500" height="250">
+                        <p>Project Cargos need experts attention. <br>Book on schedule and deliver on schedule.<br> Our experts will assist you and provide <br>acurrate service to avoid delay regarding the project deadline.</p>
+                    </div>
                 
-              </div>
-              <section class="contact-form"> <!---->
-                  <h2 class="center">Send your Enquiry</h2>
-                  <div id="feedback"></div> 
-                  <form action="/my-handling-form-page" method="post">
-                      <ul>
-                          <li>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                          </li>
-                          <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email">
-                          </li>
-                          <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                          </li>
-                          <li class="form-submit button">
-                              <button type="submit">Send your message</button>
-                          </li>
-                        </ul>              
-                  </form>
-              </section>
-        </div>
-        <footer class="footer-contact">
+                </div>
+                
+                
+
+                <div class="main-services">
+                    
+                    <div class="center">
+                        <img class="box" src="deliver-sm-size.jpg" alt="main picture" width="500" height="250">
+                        <p>With our Sea Freight services, you can move more loads in one shipment </p>
+                    </div>
+
+                    <div class="center">
+                        <img class="box" src="truck-load03.jpg" alt="main picture" width="500" height="250">
+                        <p>For your DDP & DDU contrats, we are ready to make it to your door</p>
+                    </div>
+                
+                </div>
+            
+            </div>    
+
+        <footer>
             <h3 class="footerh3-style">Cargo Freight &copy; WDD 130 Section 21 2022 - Kokou TOZO</h3>
             <h3><a href="site-plan.html">Site Plan</a></h3>
             <h3><a href="services.html">Our Services</a></h3>
@@ -109,6 +110,32 @@
             </div>
 
         </footer>
+
+        <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+            
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+        </script>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myBtn");
+              x.disabled = quote.html;
+            }
+            function myFunction() {
+              var x = document.getElementById("myBtn2");
+              x.disabled = quote.html;
+            }
+        </script>
     
 </body>
 </html>
