@@ -97,12 +97,17 @@ nav a:hover{
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
 }
+
 
 .hero-text button:hover {
   background-color:#230444;
   color: white;
+  text-decoration: none;
 }
+
+
 
 /*----------------------css text button-------------------*/
 
@@ -122,6 +127,8 @@ nav a:hover{
 .warning {color: orange;}
 .danger {color: red;}
 .default {color: black;}
+
+
 
 
 /*--------------------------end CSS button-----------------------*/
