@@ -14,7 +14,7 @@ body, html {
 }
 #logo-style{
   border-radius: 50%;
-  border-style: solide 1px;
+  
 }
 .top-nav {
   background-color: #F55D3E;
@@ -44,7 +44,7 @@ nav a:hover{
 .grid-header{
   margin-top:0;
   display:grid;
-  grid-template-columns: repeat(8 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 .grid-logo{
@@ -207,7 +207,7 @@ p{
   height: 450px;
   padding:35px;
   box-shadow: 5px 5px 10px #6f7364;
-  font-family: radio canada;
+  font-family: "radio canada";
   border: 2px solid darkblue;
   line-height: 1.9em;
   font-size: .8em;
@@ -276,7 +276,7 @@ button[type=submit]:hover {
   color: #082d0f;
   padding:35px;
   box-shadow: 5px 5px 10px #6f7364;
-  font-family: radio canada;
+  font-family: "radio canada";
   background-color: #9cb380;
   line-height: 1.9em;
   font-size: .8em;

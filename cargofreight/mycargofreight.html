@@ -48,8 +48,8 @@
             <div class="hero-text">
                 <h1 style="font-size:50px">We deliver your hope @ destination </h1>
                 <p>Cargo Freight and Logistics combines Industry insight, innovative <br> technology and commited specialists to optimize your <br> supply chain and streamline costs</p>
-                <a href="quote.html"><button type="button" id="myBtn2" onclick="myFunction()">Get Quote</button></a>
-                <button type="button" id="myBtn2" onclick="myFunction()">Call 00228-9009-2976</button>
+                <a style="background-color: #F55D3E; color: white; border: none; cursor: pointer; font-size: 20px; margin-left: 10px; margin-right: 10px; border-radius: 5px; padding: 20px; text-align: center; text-decoration: none; display: inline-block;" href="quote.html">Get Quote</a>
+                <a style="background-color: #F55D3E; color: white; border: none; cursor: pointer; font-size: 20px; margin-left: 10px; margin-right: 10px; border-radius: 5px; padding: 20px; text-align: center; text-decoration: none; display: inline-block;" href="#">Call 00228-9009-2976</a>
             </div>
            
         </main> 
@@ -64,7 +64,8 @@
                 <div id="background"></div>
                 
                 <!-- start of My cargo freight login page -->
-                <section class="login-form">
+                <div class="login-form">
+                    
                     <form action="/action_page.php" method="post">
                     <div class="imgcontainer">
                         <img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -72,10 +73,10 @@
                     
                     <div class="container">
                         <label for="uname"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <input type="text" id="uname" placeholder="Enter Username" name="username" required>
                     
                         <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
                         <div class="form-submit button" >        
                             <button type="submit">Submit</button>
                             <button type="button" class="cancelbtn">Cancel</button>
@@ -83,7 +84,7 @@
                     </div>
                     
                     </form>
-                </section>
+                </div>
                     
 
                 <!-- End of the login page -->
