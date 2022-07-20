@@ -17,6 +17,14 @@ input[type=text], select, textarea {
   border-radius: 5px;
   box-sizing: border-box;
 }
+input[type=email]{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
 input [type=submit] {
   width: 100%;
   padding: 10px 20px;
@@ -128,59 +136,53 @@ input [type=submit] {
                         <form action="/my-handling-form-page" method="post">
                             <div>
 
-                                <div> 
+                                 
 
-                                    <div>
-                                        <input type="text" id="name" name="user_name" placeholder="Full Name">
-                                    </div>
-                                    <div>
-                                        <input type="text" id="company" name="company_name" placeholder="Company Name">
-                                    </div>
-
-                                </div>
-
-                                <div> 
-
-                                    <div>
-                                        <input type="email" id="mail" name="user_email" placeholder="Email">
-                                    </div>
-                                    <div>
-                                        <input type="text" id="phone" name="phone_number" placeholder="000-(000) 000-0000">
-                                    </div>
-
-
-                                </div>
-                                
-                                <div>
-
-                                    <div>
-                                        <input type="text" id="address" name="Full_address" placeholder="Full Style Address">
-                                    </div>
-                                    <div>
-                                        <input type="text" id="city" name="city_name" placeholder="City Name">
-                                    </div>
-                                    <div>
-
-
-                                </div>
-
-                                <div>
-
-                                    <div>
                                     
+                                        <input type="text" id="name" name="user_name" placeholder="Full Name">
+                                    
+                                    
+                                        <input type="text" id="company" name="company_name" placeholder="Company Name">
+                                    
+
+                                
+
+                                 
+
+                                
+                                        <input type="email" id="mail" name="user_email" placeholder="Email">
+                                
+                                
+                                        <input type="text" id="phone" name="phone_number" placeholder="000-(000) 000-0000">
+                                
+
+
+                                
+                                
+                                
+
+                                
+                                        <input type="text" id="address" name="Full_address" placeholder="Full Style Address">
+                                
+                                
+                                        <input type="text" id="city" name="city_name" placeholder="City Name">
+                                
+                                
+
+                                
+
+                                
+
+                                                                    
                                         <input type="text" id="origin_city" name="origin_city_name" placeholder="Cargo Origin City">
-                                    </div>
+                                
     
-                                    <div>
+                                
                                         
                                         <input type="text" id="destination_city" name="destination_city_name" placeholder="Cargo Destination City">
-                                    </div>
+                                
 
 
-                                </div>
-
-                                <div>
-                                        <div>
                                             <select id="shipments" id="shipment_list" form="shipment_form" placeholder="Shipment Type">
                                                 <option value="ocean_fcl">Full Container Load</option>
                                                 <option value="ocean_lcl">Less Container Load</option>
@@ -189,11 +191,10 @@ input [type=submit] {
                                                 <option value="other">Other</option>
 
                                             </select>
-                                        </div>
-                                        <div>
+                                       
                                         
                                             <textarea id="msg" name="user_message" placeholder="Your shipment details"></textarea>
-                                        </div>
+                                        
                                 </div>
                                 <br>
                                     
