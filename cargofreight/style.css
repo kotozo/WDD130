@@ -42,6 +42,7 @@ nav a:hover{
 }
 
 .grid-header{
+  display: flex;
   margin-top:0;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -215,6 +216,7 @@ p{
   margin-top: -1180px;  /* +550   */
   margin-bottom: 400px;
   margin-left: 800px;
+  flex: 50%;
   
 }
 .left-img{
@@ -224,6 +226,11 @@ p{
   box-shadow: 5px 5px 10px #6f7364;
   margin-top: -800px;
   margin-bottom: 705px; /* +500 */
+}
+
+.img-index {
+  width: 30%;
+  height: auto;
 }
 
 .box{
@@ -479,6 +486,7 @@ span.psw {
   margin-left: 5%;
   padding:2px;
   margin-bottom: 0px;
+  flex: 50%;
 }
 
 
@@ -488,6 +496,7 @@ span.psw {
   font-size: 20px;
   line-height: 38px;
   padding-left: 10px;
+  flex: 50%;
 }
 
 
@@ -495,7 +504,7 @@ span.psw {
   text-align: left;
   font-size: 35px;
   color:#230444;
-  width:50%;
+  flex: 50%;
 } 
 
 
@@ -503,12 +512,14 @@ span.psw {
   text-align: center;
   font-size: 35px;
   color:#230444;
+  flex: 50%;
 } 
 .budget-left {
   text-align: left;
   font-size: 35px;
   color:#230444;
-  width:50%;
+  flex: 50%;
+
 } 
 
 
@@ -516,8 +527,8 @@ span.psw {
   text-align: center;
   font-size: 35px;
   color:#230444;
-  width: auto;
   text-align: right;
+  flex: 50%
 } 
 
 .number-circle {
